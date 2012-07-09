@@ -1,0 +1,27 @@
+<h1>Listing crawls</h1>
+
+<table>
+  <tr>
+    <th>Url</th>
+    <th>Filter</th>
+    <th>Result html</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @crawls.each do |crawl| %>
+  <tr>
+    <td><%= crawl.url %></td>
+    <td><%= crawl.filter %></td>
+    <td><%= crawl.result_html %></td>
+    <td><%= link_to 'Show', crawl %></td>
+    <td><%= link_to 'Edit', edit_crawl_path(crawl) %></td>
+    <td><%= link_to 'Destroy', crawl, :method => :delete, :data => { :confirm => 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Crawl', new_crawl_path %>

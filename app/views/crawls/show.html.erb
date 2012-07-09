@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Url:</b>
+  <%= @crawl.url %>
+</p>
+
+<p>
+  <b>Filter:</b>
+  <%= @crawl.filter %>
+</p>
+
+<p>
+  <b>Result html:</b>
+  <%= @crawl.result_html %>
+</p>
+
+
+<%= link_to 'Edit', edit_crawl_path(@crawl) %> |
+<%= link_to 'Back', crawls_path %>
