@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
+gem 'watir-webdriver'
 #gem 'safariwatir'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'sqlite3'
 
 gem 'json'
 

@@ -1,0 +1,81 @@
+[0.000][INFO]:      ChromeDriver 21.0.1180.4 /usr/bin/chromedriver
+[0.201][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.202][INFO]:      Using named testing interface
+[1.019][INFO]:      Connected to Chrome successfully. Version: 20.0.1132.47
+[1.049][FINE]:      Command received (/session/49f018dfc623859243fee9f75d85c41e)
+[1.049][FINE]:      Command finished (/session/49f018dfc623859243fee9f75d85c41e) with response {
+   "sessionId": "49f018dfc623859243fee9f75d85c41e",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "21.0.1180.4",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "20.0.1132.47",
+      "webStorageEnabled": true
+   }
+}
+
+[1.051][FINE]:      Command received (/session/49f018dfc623859243fee9f75d85c41e/url) with params {
+   "url": "http://www.careerbuilder.com"
+}
+
+[1.051][FINER]:     Waiting for all views to stop loading...
+[1.051][FINER]:     Done waiting for all views to stop loading
+[3.402][FINER]:     Waiting for all views to stop loading...
+[3.404][FINER]:     Done waiting for all views to stop loading
+[3.404][FINE]:      Command finished (/session/49f018dfc623859243fee9f75d85c41e/url) with response {
+   "sessionId": "49f018dfc623859243fee9f75d85c41e",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.405][FINE]:      Command received (/session/49f018dfc623859243fee9f75d85c41e/url)
+[3.405][FINER]:     Waiting for all views to stop loading...
+[3.422][FINER]:     Done waiting for all views to stop loading
+[3.584][FINER]:     Waiting for all views to stop loading...
+[3.599][FINER]:     Done waiting for all views to stop loading
+[3.599][FINE]:      Command finished (/session/49f018dfc623859243fee9f75d85c41e/url) with response {
+   "sessionId": "49f018dfc623859243fee9f75d85c41e",
+   "status": 0,
+   "value": "http://www.careerbuilder.com/"
+}
+
+[3.600][FINE]:      Command received (/session/49f018dfc623859243fee9f75d85c41e/source)
+[3.600][FINER]:     Waiting for all views to stop loading...
+[3.600][FINER]:     Done waiting for all views to stop loading
+[3.613][FINER]:     Waiting for all views to stop loading...
+[3.614][FINER]:     Done waiting for all views to stop loading
+[3.614][FINE]:      Command finished (/session/49f018dfc623859243fee9f75d85c41e/source) with response {
+   "sessionId": "49f018dfc623859243fee9f75d85c41e",
+   "status": 0,
+   "value": "\u003C!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/x..."
+}
+
